@@ -3,7 +3,7 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.24.0
-    created: "2025-03-03T21:34:48.166111433+03:00"
+    created: "2025-03-14T17:37:22.665428899+03:00"
     description: A helm chart for nginx deployment
     digest: c4d0760adb9428ba4139a4ea4169bdb28b924d84460207aecd8ee43f58ca9c9c
     name: nginx
@@ -11,4 +11,22 @@ entries:
     urls:
     - nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-03T21:34:48.165673122+03:00"
+  webapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-14T17:37:22.670935891+03:00"
+    dependencies:
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.3.1
+    - name: nginx-ingress-controller
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.6.11
+    description: A Helm chart for Kubernetes
+    digest: aa59ef3e57946d59a44443d8bf66a7753839d73bb35e775b38d25ecacce0cdb1
+    name: webapp
+    type: application
+    urls:
+    - webapp-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-03-14T17:37:22.662191114+03:00"
