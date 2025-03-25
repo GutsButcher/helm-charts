@@ -1,41 +1,9 @@
 apiVersion: v1
 entries:
-  nginx:
-  - apiVersion: v2
-    appVersion: 1.24.0
-    created: "2025-03-25T13:46:53.906061631+03:00"
-    description: A helm chart for nginx deployment
-    digest: c4d0760adb9428ba4139a4ea4169bdb28b924d84460207aecd8ee43f58ca9c9c
-    name: nginx
-    type: application
-    urls:
-    - https://gutsbutcher.github.io/helm-charts/nginx-0.1.0.tgz
-    version: 0.1.0
-  test:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-03-25T13:46:53.906708927+03:00"
-    description: A Helm chart for Kubernetes
-    digest: 5e1935e066962e5839ea38245f5156f85abfd3dd08d1c01c6295c73b51c563f8
-    name: test
-    type: application
-    urls:
-    - https://gutsbutcher.github.io/helm-charts/test-0.1.0.tgz
-    version: 0.1.0
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-03-25T13:46:53.918482448+03:00"
-    description: A Helm chart for Kubernetes
-    digest: 81b0b713bb4895d401f0eb767838262f20ca76305bf27a94301c85591b0a9da0
-    name: test
-    type: application
-    urls:
-    - https://gutsbutcher.github.io/helm-charts/charts/test-0.1.0.tgz
-    version: 0.1.0
   webapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-25T13:46:53.917845044+03:00"
+    created: "2025-03-25T14:34:41.446478428+03:00"
     dependencies:
     - name: mysql
       repository: https://charts.bitnami.com/bitnami
@@ -50,4 +18,4 @@ entries:
     urls:
     - https://gutsbutcher.github.io/helm-charts/webapp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-25T13:46:53.902768476+03:00"
+generated: "2025-03-25T14:34:41.431372137+03:00"

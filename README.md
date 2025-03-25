@@ -19,17 +19,7 @@ helm repo update
 
 | Chart Name | Version | App Version | Description | Installation Command |
 |-----------|---------|-------------|-------------|----------------------|
-| nginx | 0.1.0 | 1.24.0 | A helm chart for nginx deployment | `helm install nginx gwynbliedd/nginx` |
-| test | 0.1.0 | 1.16.0 | A Helm chart for Kubernetes | `helm install test gwynbliedd/test` |
-| test | 0.1.0 | 1.16.0 | A Helm chart for Kubernetes | `helm install test gwynbliedd/test` |
 | webapp | 0.1.0 | 1.16.0 | A Helm chart for Kubernetes | `helm install webapp gwynbliedd/webapp` |
-
-## Chart Development
-
-### Prerequisites
-
-- Kubernetes 1.20+
-- Helm 3.x
 
 ### Installation
 
@@ -41,15 +31,8 @@ helm install <release-name> gwynbliedd/<chart-name>
 
 ## Last Updated
 
-*Automatically generated on 2025-03-25 14:23:47*
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Submit a pull request
+*Automatically generated on 2025-03-25 14:35:09*
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+see the [LICENSE](LICENSE) file for details.
+
