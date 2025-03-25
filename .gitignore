@@ -1,0 +1,11 @@
+# Ignore local development and build artifacts
+**/charts/*/charts/
+**/charts/*/tmpcharts/
+**/*.lock
+**/.helm/
+**/build/
+
+# IDE and OS specific files
+.vscode/
+.idea/
+.DS_Store
