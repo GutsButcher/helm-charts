@@ -1,13 +1,13 @@
-# Ignore local development and build artifacts
-**/charts/*/charts/
-**/charts/*/tmpcharts/
-**/*.lock
-**/.helm/
-**/build/
+# Ignore everything by default
+*
 
-# IDE and OS specific files
-.vscode/
-.idea/
-.DS_Store
+# But explicitly allow these specific files and extensions
+!.gitignore
+!.git
+!/*.tgz
+!README.md
+!index.yaml
+!LICENSE
 
-test/
+# Prevent accidental inclusion of any directories
+**/
