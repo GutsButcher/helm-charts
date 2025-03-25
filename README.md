@@ -52,9 +52,4 @@ Contributions are welcome! Please follow these steps:
 4. Submit a pull request
 
 ## License
-
-(Specify your license, e.g., MIT, Apache 2.0)
-
-## Support
-
-For issues or questions, please [open an issue](https://github.com/gutsbutcher/helm-charts/issues) in the GitHub repository.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
