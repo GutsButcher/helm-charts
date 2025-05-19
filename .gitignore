@@ -8,6 +8,8 @@
 !README.md
 !index.yaml
 !LICENSE
-
+!main.go
+!go.sum
+!go.mod
 # Prevent accidental inclusion of any directories
 **/
